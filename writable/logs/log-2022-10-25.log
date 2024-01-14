@@ -1,0 +1,18 @@
+CRITICAL - 2022-10-25 23:57:16 --> array_key_exists() expects parameter 2 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(82): array_key_exists()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->exam_answers_submit()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-25 13:49:09 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(893): class_exists()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}

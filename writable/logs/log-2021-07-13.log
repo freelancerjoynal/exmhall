@@ -1,0 +1,32 @@
+CRITICAL - 2021-07-13 00:36:52 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(73): array_column(NULL, 'product_id')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->add_to_cart()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-13 00:36:54 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(73): array_column(NULL, 'product_id')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->add_to_cart()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-13 00:37:07 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(73): array_column(NULL, 'product_id')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->add_to_cart()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-13 00:38:37 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(74): array_column(NULL, 'product_id')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->add_to_cart()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

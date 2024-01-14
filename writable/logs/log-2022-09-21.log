@@ -1,0 +1,400 @@
+CRITICAL - 2022-09-21 10:30:46 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:33:25 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:39:46 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:19 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:28 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:28 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:47 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:47 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:48 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:48 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:40:48 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:41:31 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:41:32 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:41:32 --> syntax error, unexpected 'class_name' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:46:06 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:46:07 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 10:50:49 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:00:36 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:00:47 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:00:48 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:00:48 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:00:48 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:13:14 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:18:58 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:19:12 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:19:13 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:20:14 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:20:15 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:24:14 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:24:15 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:24:33 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:24:33 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:06 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:21 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:33 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:33 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:50 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:38:50 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:39:52 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-21 11:39:53 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/c...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/c...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Classes.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/c...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Classes->classes_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Classes))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

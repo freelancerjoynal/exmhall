@@ -1,0 +1,75 @@
+CRITICAL - 2021-03-22 01:13:06 --> Call to a member function get_site_details() on null
+#0 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 01:17:52 --> Class 'App\Models\HomeModel' not found
+#0 C:\xampp\htdocs\Projects\education-management\system\Common.php(698): include_once()
+#1 C:\xampp\htdocs\Projects\education-management\system\Controller.php(92): helper(Array)
+#2 C:\xampp\htdocs\Projects\education-management\app\Controllers\BaseController.php(47): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 01:17:52 --> Class 'App\Models\HomeModel' not found
+#0 C:\xampp\htdocs\Projects\education-management\system\Common.php(698): include_once()
+#1 C:\xampp\htdocs\Projects\education-management\system\Controller.php(92): helper(Array)
+#2 C:\xampp\htdocs\Projects\education-management\app\Controllers\BaseController.php(47): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 01:17:52 --> Class 'App\Models\HomeModel' not found
+#0 C:\xampp\htdocs\Projects\education-management\system\Common.php(698): include_once()
+#1 C:\xampp\htdocs\Projects\education-management\system\Controller.php(92): helper(Array)
+#2 C:\xampp\htdocs\Projects\education-management\app\Controllers\BaseController.php(47): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 01:18:03 --> Call to a member function get_site_details() on null
+#0 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 01:18:03 --> Call to a member function get_site_details() on null
+#0 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 01:24:58 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Projects\education-management\system\Controller.php(92): helper(Array)
+#1 C:\xampp\htdocs\Projects\education-management\app\Controllers\BaseController.php(47): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 01:24:59 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Projects\education-management\system\Controller.php(92): helper(Array)
+#1 C:\xampp\htdocs\Projects\education-management\app\Controllers\BaseController.php(47): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-22 01:38:19 --> Call to a member function login() on null
+#0 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(936): App\Controllers\Admin\Login->index()
+#1 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 01:40:35 --> Use of undefined constant TBL_STOCK_BALANCE - assumed 'TBL_STOCK_BALANCE' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\Projects\education-management\app\Models\Admin\DashboardModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\Projects\education-management\app\Controllers\Admin\Dashboard\Dashboard.php(19): App\Models\Admin\DashboardModel->get_dashboard_reports()
+#2 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(936): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\Projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,46 @@
+
+
+.hide {
+	display: none !important;
+}
+
+input[type="text"]:disabled {
+  background: #dddddd !important;
+}
+
+select:disabled {
+  background: #dddddd !important;
+}
+
+#table_transaction_history_filter select {
+	width: 200px; 
+}
+
+#table_transfer_history_filter select {
+	width: 200px; 
+}
+
+#table_faq_filter select {
+	width: 200px; 
+}
+
+.datatable-search-bar {
+	display: none!important;
+}
+.vertical-menu {
+	width: 280px;
+}
+.main-content {
+	margin-left: 280px;
+}
+
+.dataTable {
+	font-size: 12px !important;
+}
+
+@media only screen and (min-width:992px) { 
+	.navbar-brand-box {
+		width: 280px;
+	}
+}
+

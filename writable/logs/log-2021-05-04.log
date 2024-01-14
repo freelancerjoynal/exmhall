@@ -1,0 +1,36 @@
+CRITICAL - 2021-05-04 23:15:19 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\projects\education-management\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\education-management\system\Common.php(1217): CodeIgniter\View\View->render('Admin/layouts/l...', Array, true)
+#2 C:\xampp\htdocs\projects\education-management\app\Controllers\BaseController.php(107): view('Admin/layouts/l...', Array)
+#3 C:\xampp\htdocs\projects\education-management\app\Controllers\Admin\Dashboard\Dashboard.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/dashboard...', Array)
+#4 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(936): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-04 12:53:24 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\projects\education-management\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\education-management\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-04 23:27:44 --> Class 'App\Models\Admin\StudentsModel' not found
+#0 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(908): App\Controllers\Admin\Students\Students->__construct()
+#1 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-04 23:52:22 --> Invalid file: Admin/students/courses.php
+#0 C:\xampp\htdocs\projects\education-management\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/students/...')
+#1 C:\xampp\htdocs\projects\education-management\system\Common.php(1217): CodeIgniter\View\View->render('Admin/students/...', Array, true)
+#2 C:\xampp\htdocs\projects\education-management\app\Controllers\BaseController.php(108): view('Admin/students/...', Array)
+#3 C:\xampp\htdocs\projects\education-management\app\Controllers\Admin\Students\Students.php(39): App\Controllers\BaseController->loadtemplateadmin('Admin/students/...', Array)
+#4 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(936): App\Controllers\Admin\Students\Students->courses()
+#5 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Students\Students))
+#6 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

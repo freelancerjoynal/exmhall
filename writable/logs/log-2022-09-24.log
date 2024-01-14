@@ -1,0 +1,272 @@
+CRITICAL - 2022-09-24 13:32:02 --> Call to a member function get_class_details() on null
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit('1')
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#2 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-24 13:36:26 --> Call to a member function get_class_details() on null
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit('1')
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#2 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-24 16:35:31 --> mysqli_sql_exception: Unknown column 'subject_name' in 'field list' in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `classes...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `classes...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `classes...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `classes...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(80): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(73): App\Models\Admin\SettingsModel->data_update('classes', Array, Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-24 16:35:38 --> mysqli_sql_exception: Unknown column 'subject_name' in 'field list' in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `classes...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `classes...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `classes...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `classes...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(80): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(73): App\Models\Admin\SettingsModel->data_update('classes', Array, Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-24 16:36:44 --> mysqli_sql_exception: Unknown column 'subject_name' in 'field list' in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `classes...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `classes...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `classes...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `classes...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(80): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(73): App\Models\Admin\SettingsModel->data_update('classes', Array, Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-24 17:07:15 --> mysqli_sql_exception: Column 'class_id' cannot be null in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(32): App\Models\Admin\SettingsModel->data_insert('subjects', Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_add()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-24 17:08:11 --> mysqli_sql_exception: Column 'class_id' cannot be null in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(32): App\Models\Admin\SettingsModel->data_insert('subjects', Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_add()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-24 17:14:09 --> mysqli_sql_exception: Unknown column 'subject_name' in 'field list' in C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\student-exam\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `classes...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `classes...')
+#2 C:\xampp\htdocs\projects\student-exam\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `classes...')
+#3 C:\xampp\htdocs\projects\student-exam\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `classes...', Array, false)
+#4 C:\xampp\htdocs\projects\student-exam\app\Models\Admin\SettingsModel.php(80): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Subjects.php(75): App\Models\Admin\SettingsModel->data_update('classes', Array, Array)
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Subjects->subject_edit()
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Subjects))
+#8 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-24 07:05:17 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 07:05:19 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 07:06:31 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 07:32:35 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-09-24 07:32:36 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-09-24 07:32:40 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-09-24 07:32:42 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-09-24 18:33:23 --> Invalid file: Admin/masters/topics/topics-list.php
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/masters/t...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('Admin/masters/t...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(110): view('Admin/masters/t...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Admin\Masters\Topics.php(21): App\Controllers\BaseController->loadtemplateadmin('Admin/masters/t...', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Admin\Masters\Topics->topics_list()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Masters\Topics))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 08:24:46 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 21:22:41 --> Invalid file: layouts/customer-account-menu.php
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/custome...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('layouts/custome...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(96): view('layouts/custome...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 22:02:36 --> Invalid file: layouts/customer-account-menu.php
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/custome...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('layouts/custome...', Array, true)
+#2 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(96): view('layouts/custome...', Array)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 23:52:06 --> Call to undefined function carf_token()
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('layouts/footer', Array, true)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(97): view('layouts/footer', Array)
+#4 C:\xampp\htdocs\projects\student-exam\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-24 23:53:03 --> Call to undefined function csrf()
+#0 C:\xampp\htdocs\projects\student-exam\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\projects\student-exam\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projects\student-exam\system\Common.php(1217): CodeIgniter\View\View->render('layouts/footer', Array, true)
+#3 C:\xampp\htdocs\projects\student-exam\app\Controllers\BaseController.php(97): view('layouts/footer', Array)
+#4 C:\xampp\htdocs\projects\student-exam\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-24 14:06:41 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:08:05 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:09:09 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:11:12 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:12:54 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:16:03 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-24 14:19:32 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\student-exam\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\student-exam\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\student-exam\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,12 @@
+ERROR - 2023-03-30 11:35:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'limit 1 -- -+' AND password = 'd7bc9a081989412edc5abb89b4755334') OR ('info@t...' at line 1 in /home/u939175683/domains/exmhall.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/u939175683/domains/exmhall.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM a...')
+#1 /home/u939175683/domains/exmhall.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 /home/u939175683/domains/exmhall.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 /home/u939175683/domains/exmhall.com/public_html/app/Models/Admin/LoginModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 /home/u939175683/domains/exmhall.com/public_html/app/Controllers/Admin/Login.php(32): App\Models\Admin\LoginModel->login(Array)
+#5 /home/u939175683/domains/exmhall.com/public_html/system/CodeIgniter.php(936): App\Controllers\Admin\Login->index()
+#6 /home/u939175683/domains/exmhall.com/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 /home/u939175683/domains/exmhall.com/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u939175683/domains/exmhall.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}

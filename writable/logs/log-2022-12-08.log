@@ -1,0 +1,12 @@
+ERROR - 2022-12-08 22:16:20 --> mysqli_sql_exception: Unknown column 'Q.part_id' in 'where clause' in /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Models/StudentExamModel.php(63): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(85): App\Models\StudentExamModel->exam_questions_list()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exam()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}

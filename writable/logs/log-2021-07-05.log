@@ -1,0 +1,6 @@
+CRITICAL - 2021-07-05 00:37:49 --> Class 'App\Models\Admin\TicketsModel' not found
+#0 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

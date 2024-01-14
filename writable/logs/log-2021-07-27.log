@@ -1,0 +1,32 @@
+CRITICAL - 2021-07-27 01:36:15 --> imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Products.php(91): imagecreatefromjpeg('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-27 01:37:53 --> imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Products.php(91): imagecreatefromjpeg('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-27 01:41:08 --> imagepng(): gd-png error: compression level must be 0 through 9
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagepng(): gd-...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Products.php(93): imagepng(Resource id #126, 'C:\\xampp\\htdocs...', 90)
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-27 01:41:33 --> imagepng(): gd-png error: compression level must be 0 through 9
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagepng(): gd-...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Products.php(93): imagepng(Resource id #126, 'C:\\xampp\\htdocs...', 100)
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

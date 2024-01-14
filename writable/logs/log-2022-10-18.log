@@ -1,0 +1,207 @@
+CRITICAL - 2022-10-18 00:08:59 --> Invalid file: admin/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(12): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-18 00:09:41 --> Invalid file: Admin/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(12): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-18 00:10:15 --> Invalid file: Admin/exams/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(12): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-18 00:14:13 --> Invalid file: exams/exam-list.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(22): App\Controllers\BaseController->loadtemplate()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exams()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:14:36 --> Call to a member function all_subjects_details() on null
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 00:16:47 --> Invalid file: exams/exam-list.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(22): App\Controllers\BaseController->loadtemplate()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exams()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:16:48 --> Invalid file: exams/exam-list.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(22): App\Controllers\BaseController->loadtemplate()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exams()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:17:05 --> Invalid file: Admin/exams/topics-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(108): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(40): App\Controllers\BaseController->loadtemplateadmin()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:18:17 --> Invalid file: Admin/exams/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(108): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(40): App\Controllers\BaseController->loadtemplateadmin()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:20:12 --> Invalid file: Admin/exams/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(108): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(40): App\Controllers\BaseController->loadtemplateadmin()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:25:41 --> Invalid file: Admin/exams/exams-form.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(108): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/Admin/Exams/Exams.php(40): App\Controllers\BaseController->loadtemplateadmin()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-18 00:51:37 --> sprintf(): Too few arguments
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Helpers/common_helper.php(165): sprintf()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Views/exam/exam-list.php(43): hoursandmins()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(220): include('/var/www/vhosts...')
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(22): App\Controllers\BaseController->loadtemplate()
+#8 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exams()
+#9 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-18 19:44:09 --> Call to a member function all_topics_details() on null
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 19:44:29 --> Call to a member function all_topics_details() on null
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 19:58:57 --> Call to a member function all_topics_details() on null
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:05:13 --> Call to a member function all_classes_details() on null
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\Admin\Exams\Exams->exam_insert()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:15:54 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:17:36 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:21:35 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:23:48 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:27:04 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:27:09 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:29:46 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:31:42 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:41:48 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:42:37 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 20:43:04 --> Class 'App\Models\Admin\ExamsModel' not found
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(908): App\Controllers\Admin\Exams\Exams->__construct()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}

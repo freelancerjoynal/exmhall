@@ -1,0 +1,80 @@
+CRITICAL - 2021-07-12 01:16:28 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:12 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:14 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:15 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:15 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:15 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:15 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-12 01:20:15 --> Invalid file: cart.php
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(49): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

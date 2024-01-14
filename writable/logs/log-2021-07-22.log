@@ -1,0 +1,42 @@
+CRITICAL - 2021-07-22 01:47:31 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Views\MyAccounts\my-orders.php(59): array_column(NULL, 'color_id')
+#2 C:\xampp\htdocs\projects\tija\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\tija\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('MyAccounts/my-o...', Array, true)
+#5 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(97): view('MyAccounts/my-o...', Array)
+#6 C:\xampp\htdocs\projects\tija\app\Controllers\MyAccount.php(35): App\Controllers\BaseController->loadtemplate('MyAccounts/my-o...', Array)
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\MyAccount->my_orders()
+#8 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyAccount))
+#9 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-22 01:50:07 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Views\MyAccounts\my-orders.php(59): array_column(NULL, 'color_id')
+#2 C:\xampp\htdocs\projects\tija\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\tija\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('MyAccounts/my-o...', Array, true)
+#5 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(97): view('MyAccounts/my-o...', Array)
+#6 C:\xampp\htdocs\projects\tija\app\Controllers\MyAccount.php(35): App\Controllers\BaseController->loadtemplate('MyAccounts/my-o...', Array)
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\MyAccount->my_orders()
+#8 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyAccount))
+#9 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-22 23:58:53 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\MyAccount.php(49): json_decode(Array, true)
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\MyAccount->get_customer_shipping_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyAccount))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-22 23:59:48 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\MyAccount.php(49): json_decode(Array, true)
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\MyAccount->get_customer_shipping_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyAccount))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

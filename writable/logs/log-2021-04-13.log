@@ -1,0 +1,49 @@
+ERROR - 2021-04-13 00:03:53 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.gmail.com:587 (Connection refused)
+ERROR - 2021-04-13 00:05:46 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.gmail.com:587 (Connection refused)
+ERROR - 2021-04-13 00:12:18 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Connection refused)
+ERROR - 2021-04-13 00:13:44 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Connection refused)
+ERROR - 2021-04-13 00:23:54 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.gmail.com:587 (Connection refused)
+ERROR - 2021-04-13 00:34:25 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2021-04-13 00:35:42 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2021-04-13 20:21:26 --> Error connecting to the database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+CRITICAL - 2021-04-13 20:21:26 --> Unable to connect to the database.
+#0 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pe2itb2zyhdo/public_html/app/Models/Admin/SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-13 20:21:35 --> Error connecting to the database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+CRITICAL - 2021-04-13 20:21:35 --> Unable to connect to the database.
+#0 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pe2itb2zyhdo/public_html/app/Models/Admin/SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-13 20:21:40 --> Error connecting to the database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+CRITICAL - 2021-04-13 20:21:40 --> Unable to connect to the database.
+#0 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pe2itb2zyhdo/public_html/app/Models/Admin/SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-13 20:21:59 --> Error connecting to the database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+CRITICAL - 2021-04-13 20:21:59 --> Unable to connect to the database.
+#0 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pe2itb2zyhdo/public_html/app/Models/Admin/SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

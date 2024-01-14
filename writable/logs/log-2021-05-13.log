@@ -1,0 +1,8 @@
+CRITICAL - 2021-05-13 00:45:39 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\projects\education-management\app\Controllers\Admin\Orders\Orders.php(55): mail('student2@gmail....', 'Your order succ...', 'Order ID- cqgbt...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(936): App\Controllers\Admin\Orders\Orders->order_approve('6')
+#3 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders\Orders))
+#4 C:\xampp\htdocs\projects\education-management\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\education-management\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

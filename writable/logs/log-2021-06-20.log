@@ -1,0 +1,12 @@
+ERROR - 2021-06-20 01:47:49 --> mysqli_sql_exception: Table 'tija_product.view_ticket_results' doesn't exist in C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\xampp\htdocs\projects\tija\app\Models\Admin\TicketsModel.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\xampp\htdocs\projects\tija\app\Controllers\Home.php(23): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

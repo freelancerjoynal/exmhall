@@ -1,0 +1,81 @@
+ERROR - 2021-07-19 00:03:12 --> Error connecting to the database: Unknown database 'tija_product'
+CRITICAL - 2021-07-19 00:03:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-07-19 00:03:16 --> Error connecting to the database: Unknown database 'tija_product'
+CRITICAL - 2021-07-19 00:03:16 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-07-19 00:03:38 --> Error connecting to the database: Unknown database 'tija_product'
+CRITICAL - 2021-07-19 00:03:38 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-07-19 00:03:38 --> Error connecting to the database: Unknown database 'tija_product'
+CRITICAL - 2021-07-19 00:03:38 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-07-19 00:03:39 --> Error connecting to the database: Unknown database 'tija_product'
+CRITICAL - 2021-07-19 00:03:39 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-19 00:30:19 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Views\home.php(40): array_column(NULL, 'color_id')
+#2 C:\xampp\htdocs\projects\tija\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\tija\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('home', Array)
+#6 C:\xampp\htdocs\projects\tija\app\Controllers\Home.php(40): App\Controllers\BaseController->loadtemplate('home', Array)
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-19 00:50:30 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\projects\tija\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('cart', Array, true)
+#2 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(96): view('cart', Array)
+#3 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(85): App\Controllers\BaseController->loadtemplate('cart', Array)
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->cart()
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-19 01:25:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\projects\tija\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\projects\tija\app\Controllers\Products.php(147): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Products->delete_cart_item('3')
+#3 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

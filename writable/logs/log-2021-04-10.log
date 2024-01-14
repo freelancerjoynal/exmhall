@@ -1,0 +1,158 @@
+ERROR - 2021-04-10 02:41:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-04-10 02:41:14 --> Unable to connect to the database.
+#0 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pe2itb2zyhdo/public_html/app/Models/Admin/SettingsModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(59): App\Models\Admin\SettingsModel->get_site_details()
+#3 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-10 02:43:53 --> mysqli_sql_exception: Table 'education_management.view_banners' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/Admin/BannersModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(16): App\Models\Admin\BannersModel->get_banners(NULL)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 02:43:53 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(16): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(46): widget_home_popular_courses(Array)
+#6 /home/pe2itb2zyhdo/public_html/app/Views/home.php(92): get_widget('HOME-POPULAR-CO...')
+#7 /home/pe2itb2zyhdo/public_html/system/View/View.php(220): include('/home/pe2itb2zy...')
+#8 /home/pe2itb2zyhdo/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /home/pe2itb2zyhdo/public_html/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#10 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(96): view('home', Array)
+#11 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#12 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#13 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#14 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2021-04-10 02:43:53 --> mysqli_sql_exception: Table 'education_management.view_banners' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/Admin/BannersModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(16): App\Models\Admin\BannersModel->get_banners(NULL)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 02:43:53 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(16): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(46): widget_home_popular_courses(Array)
+#6 /home/pe2itb2zyhdo/public_html/app/Views/home.php(92): get_widget('HOME-POPULAR-CO...')
+#7 /home/pe2itb2zyhdo/public_html/system/View/View.php(220): include('/home/pe2itb2zy...')
+#8 /home/pe2itb2zyhdo/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /home/pe2itb2zyhdo/public_html/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#10 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(96): view('home', Array)
+#11 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#12 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#13 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#14 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2021-04-10 02:43:57 --> mysqli_sql_exception: Table 'education_management.view_banners' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/Admin/BannersModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(16): App\Models\Admin\BannersModel->get_banners(NULL)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 02:43:57 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(16): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(46): widget_home_popular_courses(Array)
+#6 /home/pe2itb2zyhdo/public_html/app/Views/home.php(92): get_widget('HOME-POPULAR-CO...')
+#7 /home/pe2itb2zyhdo/public_html/system/View/View.php(220): include('/home/pe2itb2zy...')
+#8 /home/pe2itb2zyhdo/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /home/pe2itb2zyhdo/public_html/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#10 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(96): view('home', Array)
+#11 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#12 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#13 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#14 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2021-04-10 02:43:59 --> mysqli_sql_exception: Table 'education_management.view_banners' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/Admin/BannersModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(16): App\Models\Admin\BannersModel->get_banners(NULL)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 02:43:59 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(16): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/app/Helpers/widgets_helper.php(46): widget_home_popular_courses(Array)
+#6 /home/pe2itb2zyhdo/public_html/app/Views/home.php(92): get_widget('HOME-POPULAR-CO...')
+#7 /home/pe2itb2zyhdo/public_html/system/View/View.php(220): include('/home/pe2itb2zy...')
+#8 /home/pe2itb2zyhdo/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /home/pe2itb2zyhdo/public_html/system/Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#10 /home/pe2itb2zyhdo/public_html/app/Controllers/BaseController.php(96): view('home', Array)
+#11 /home/pe2itb2zyhdo/public_html/app/Controllers/Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#12 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#13 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#14 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2021-04-10 02:47:05 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Courses.php(21): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Courses->course_list('database-manage...')
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-10 02:47:13 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Courses.php(21): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Courses->course_list()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

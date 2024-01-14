@@ -1,0 +1,36 @@
+ERROR - 2021-04-04 03:14:30 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Courses.php(21): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Courses->course_list('data-science')
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-04 03:14:39 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/CoursesModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Courses.php(21): App\Models\CoursesModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Courses->course_list()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-04 03:15:23 --> mysqli_sql_exception: Table 'education_management.view_courses' doesn't exist in /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/pe2itb2zyhdo/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 /home/pe2itb2zyhdo/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 /home/pe2itb2zyhdo/public_html/app/Models/Admin/StudyMaterialsModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 /home/pe2itb2zyhdo/public_html/app/Controllers/Admin/StudyMaterials/StudyMaterials.php(21): App\Models\Admin\StudyMaterialsModel->course_list(Array)
+#5 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(936): App\Controllers\Admin\StudyMaterials\StudyMaterials->list()
+#6 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\StudyMaterials\StudyMaterials))
+#7 /home/pe2itb2zyhdo/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pe2itb2zyhdo/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

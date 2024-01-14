@@ -1,0 +1,35 @@
+ERROR - 2021-07-25 00:24:59 --> mysqli_sql_exception: Unknown column 'account_id' in 'where clause' in C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM v...')
+#1 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\xampp\htdocs\projects\tija\app\Models\MyAccountModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\xampp\htdocs\projects\tija\app\Controllers\MyAccount.php(44): App\Models\MyAccountModel->get_product_warranties_claim(Array)
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\MyAccount->my_product_warranty()
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyAccount))
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-25 23:28:38 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\projects\tija\app\Views\Admin\products\orders.php(104): array_column(NULL, 'color_id')
+#2 C:\xampp\htdocs\projects\tija\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\tija\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\projects\tija\system\Common.php(1217): CodeIgniter\View\View->render('Admin/products/...', Array, true)
+#5 C:\xampp\htdocs\projects\tija\app\Controllers\BaseController.php(110): view('Admin/products/...', Array)
+#6 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Orders.php(25): App\Controllers\BaseController->loadtemplateadmin('Admin/products/...', Array)
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Orders->order_list()
+#8 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Orders))
+#9 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-07-25 15:44:45 --> syntax error, unexpected '">Select your State</option>"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\projects\tija\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\tija\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

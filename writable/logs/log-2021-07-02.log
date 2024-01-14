@@ -1,0 +1,25 @@
+ERROR - 2021-07-02 01:02:18 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\tija\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `product...')
+#1 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\projects\tija\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\projects\tija\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\projects\tija\app\Models\Admin\SettingsModel.php(52): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\projects\tija\app\Controllers\Admin\Products\Products.php(220): App\Models\Admin\SettingsModel->data_update('products', Array, 'id', 5)
+#6 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add()
+#7 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#8 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-02 02:27:27 --> Class 'App\Models\Admin\TicketsModel' not found
+#0 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-02 23:20:34 --> Call to a member function get_each_blog_data() on null
+#0 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(936): App\Controllers\Admin\Products\Products->product_add('2')
+#1 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products\Products))
+#2 C:\xampp\htdocs\projects\tija\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\tija\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

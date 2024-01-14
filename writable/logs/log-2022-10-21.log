@@ -1,0 +1,10 @@
+CRITICAL - 2022-10-21 21:37:41 --> Invalid file: exam/exam-panel.php
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(33): App\Controllers\BaseController->loadtemplate()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exam()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}

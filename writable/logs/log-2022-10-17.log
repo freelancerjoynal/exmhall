@@ -1,0 +1,10 @@
+CRITICAL - 2022-10-17 13:31:13 --> syntax error, unexpected '<', expecting end of file
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(893): class_exists()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}

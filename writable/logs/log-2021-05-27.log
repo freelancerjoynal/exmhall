@@ -1,0 +1,216 @@
+ERROR - 2021-05-27 01:46:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EventDate,101) DESC' at line 1 in C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM t...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\TicketsModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(21): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->list()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-27 01:46:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EventDate,101) DESC' at line 1 in C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM t...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\TicketsModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(21): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->list()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-27 01:46:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EventDate) DESC' at line 1 in C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM t...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\TicketsModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(21): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->list()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-27 01:46:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') DESC' at line 1 in C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM t...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\TicketsModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(21): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->list()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-27 01:47:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '101) DESC' at line 1 in C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\ticket-results\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM t...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\TicketsModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(21): App\Models\Admin\TicketsModel->get_ticket_results(Array)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->list()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 02:03:53 --> Class 'App\Models\Admin\BannersModel' not found
+#0 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 02:08:28 --> Illegal string offset 'ticket_number'
+#0 C:\xampp\htdocs\projects\ticket-results\app\Views\Admin\tickets\tickets-form.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\projects\ticket-results\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\ticket-results\system\Common.php(1217): CodeIgniter\View\View->render('Admin/tickets/t...', Array, true)
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\BaseController.php(108): view('Admin/tickets/t...', Array)
+#5 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Admin\Tickets\Tickets.php(94): App\Controllers\BaseController->loadtemplateadmin('Admin/tickets/t...', Array)
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Admin\Tickets\Tickets->add('1')
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tickets\Tickets))
+#8 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 02:25:51 --> Class 'App\Models\Admin\BannersModel' not found
+#0 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 02:26:41 --> Use of undefined constant TBL_COURSE_CATEGORIES - assumed 'TBL_COURSE_CATEGORIES' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\SettingsModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\ticket-results\app\Controllers\BaseController.php(93): App\Models\Admin\SettingsModel->get_course_categories()
+#2 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#3 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 02:27:06 --> Use of undefined constant TBL_COURSE_CATEGORIES - assumed 'TBL_COURSE_CATEGORIES' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\ticket-results\app\Models\Admin\SettingsModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\ticket-results\app\Controllers\BaseController.php(93): App\Models\Admin\SettingsModel->get_course_categories()
+#2 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#3 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 02:27:38 --> Class 'App\Models\Admin\BannersModel' not found
+#0 C:\xampp\htdocs\projects\ticket-results\app\Views\home.php(2): get_banners('HOME')
+#1 C:\xampp\htdocs\projects\ticket-results\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\ticket-results\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects\ticket-results\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\projects\ticket-results\app\Controllers\BaseController.php(96): view('home', Array)
+#5 C:\xampp\htdocs\projects\ticket-results\app\Controllers\Home.php(18): App\Controllers\BaseController->loadtemplate('home', Array)
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 12:24:03 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\projects\ticket-results\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\ticket-results\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 23:53:12 --> Call to a member function get_ticket_results() on null
+#0 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 23:53:13 --> Call to a member function get_ticket_results() on null
+#0 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\ticket-results\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\ticket-results\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 13:41:06 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-27 16:46:11 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:12 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:16 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:17 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:18 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:19 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:19 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:47:20 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:56:28 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:56:30 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 16:56:30 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/dasbondb/ak.dasbond.life/ticket-results/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/dasbondb/ak.dasbond.life/ticket-results/system/Events/Events.php(166): call_user_func(Object(Closure))
+#3 /home/dasbondb/ak.dasbond.life/ticket-results/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#4 /home/dasbondb/ak.dasbond.life/ticket-results/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

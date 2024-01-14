@@ -1,0 +1,18 @@
+CRITICAL - 2022-10-24 23:25:06 --> Call to undefined method CodeIgniter\Session\Session::delete()
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->student_exam()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-24 23:30:47 --> count(): Parameter must be an array or an object that implements Countable
+#0 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Views/exam/exam-result.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(220): include('/var/www/vhosts...')
+#2 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/BaseController.php(95): view()
+#5 /var/www/vhosts/dasbond.club/exam.dasbond.in/app/Controllers/StudentExam.php(124): App\Controllers\BaseController->loadtemplate()
+#6 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(936): App\Controllers\StudentExam->exam_result()
+#7 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/dasbond.club/exam.dasbond.in/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/dasbond.club/exam.dasbond.in/index.php(43): CodeIgniter\CodeIgniter->run()
+#10 {main}
